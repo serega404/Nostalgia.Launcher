@@ -43,7 +43,7 @@
                     <!-- Background -->
                     <components:BackgroundComponent Classes="Image" Source="/Assets/Images/background.jpg" />
 
-                    <Rectangle Fill="{DynamicResource BackgroundOverlay}" />
+                    <!-- <Rectangle Fill="{DynamicResource BackgroundOverlay}" /> -->
 
 
                     <!-- Content -->

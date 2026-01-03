@@ -118,7 +118,7 @@ public class MainWindowViewModel : WindowViewModelBase, IScreen
     }
     private async void CheckSystem()
     {
-        if (_vpnChecker.IsUseVpnTunnel())
+        if (false && _vpnChecker.IsUseVpnTunnel())
         {
             Manager
                 .CreateMessage(true, "#3684EA",

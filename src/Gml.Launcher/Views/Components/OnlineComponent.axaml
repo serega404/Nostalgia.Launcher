@@ -46,7 +46,6 @@
                                        FontWeight="Medium" />
                             <TextBlock>
                                 <Run Text="{TemplateBinding Online}"
-                                     Foreground="{DynamicResource HeadlineColor}"
                                      FontSize="20"
                                      FontWeight="Bold" />
                                 <Run Text="{x:Static lang:Resources.PlayersShort}"
