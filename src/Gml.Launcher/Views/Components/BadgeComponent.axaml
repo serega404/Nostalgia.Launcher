@@ -22,7 +22,8 @@
                         VerticalAlignment="Top"
                         CornerRadius="{TemplateBinding CornerRadius}"
                         Padding="{TemplateBinding Padding}"
-                        BorderThickness="{TemplateBinding BorderThickness}">
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        Background="#000">
                     <TextBlock Text="{TemplateBinding Text}"
                                FontWeight="Medium"
                                Foreground="{TemplateBinding Foreground}" />
